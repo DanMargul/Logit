@@ -1,5 +1,5 @@
 import polars as pl
-from logit.transforms import to_logit
+from logit.core.transforms import to_logit
 
 class MicrostructurePipeline:
     def __init__(self, min_bid_depth: float = 5000.0, freq: str = "1h"):

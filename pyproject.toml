@@ -9,7 +9,8 @@ description = "Prediction market quantitative engine and optimal transport stres
 requires-python = ">=3.13"
 dependencies = [
     "polars",
-    "numpy"
+    "numpy",
+    "scipy"
 ]
 
 [project.optional-dependencies]
